@@ -1,0 +1,58 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 16px;
+  border-radius: 2px;
+  background-color: rgb(92, 3, 175);
+  color: white;
+  margin: 20px auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid lightgray;
+  background-color: lightgray;
+  border-radius: 5px;
+  color: rgb(61, 53, 53);
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.row-centered {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-between {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.skip-btn {
+  background-color: rgb(126, 126, 126);
+}
+
